@@ -1,6 +1,6 @@
 ---
 layout: post
-title: testando
+title: MusixmatchR Package 
 ---
 
 # musixmatchR
