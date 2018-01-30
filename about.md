@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Graduated on Computer Science and in love with data analysis. 
 
 ### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+I'm really into pop culture especially music, tv shows and **Star Wars**.
+My idea is using this blog to post my personal experiences using R and Data Science tools and to connect with other fellow data scientists around the world.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[fernanda.brunobr@gmail.com](mailto:fernanda.brunobr@gmail.com)
