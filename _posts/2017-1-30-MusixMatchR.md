@@ -109,4 +109,4 @@ getLyrics(19649460,apikey)
 A simple and cool example is creating a Word Cloud based on the most used words from a singer. 
 I created a Comparison Cloud based on words that are present on the early Taylor Swift fase (until *1989* album) and her new fase (*Reputation*).
 
-<center><img src="examples/taylorcloud.png" alt="Comparison Cloud New Taylor x Old Taylor" style="width: 600px;"/></center>
+<center><img src="images/taylorcloud.png" alt="Comparison Cloud New Taylor x Old Taylor" style="width: 600px;"/></center>
