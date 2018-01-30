@@ -43,7 +43,7 @@ It searches Musixmatch database for a provided band, singer or artist.
 artists <- getArtists("Taylor Swift",apikey)
 |    artist_id |                          artist_name  |artist_country|artist_rating|twiter_url
 |1     259675  |                       Taylor Swift    |         US   |        95   |https://twitter.com/taylorswift13
-|2   24451377  |                テイラー・スウィフト     |              |        17   |
+|2   24451377  |                テイラー・スウィフト         |              |        17   |
 |3   34690605  | Taylor Swift feat. Ed Sheeran & Future|              |        61   |
 |4   32915417  |               ZAYN feat. Taylor Swift |              |        61   |
 |5   13920947  |              B.o.B feat. Taylor Swift |              |        39   |
