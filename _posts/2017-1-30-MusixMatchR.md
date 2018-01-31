@@ -15,7 +15,7 @@ This package allows you to get data from MusixMatch database. I started using th
 
 ### Prerequisites
 
-First things first: To use the package without difficulty, it is important that you create an application to provide you an API Key from MusixMatch. 
+First things first: To use the package without difficulty, it is important that you create an application to provide you with an API Key from MusixMatch. 
 An easy way to do so is accessing [MusixMatch Developers Page](https://developer.musixmatch.com/admin/applications) . After you create an application, a Key will be provided to you. 
 This key is very important for you to be able to access all features on the package.
 
@@ -26,7 +26,7 @@ To get **musixmatchR** running, you have to use **devtools** since it is not ava
 library(devtools)
 install_github("fernandabruno/musixmatchR")
 ```
-To make the package simpler to use, it is important that you create a object called *apikey* to store your API Key and to use it as a parameter as you call the functions.
+To make the package simpler to use, it is important that you create an object called *apikey* to store your API Key and to use it as a parameter as you call the functions.
 For example:
 
 ```r
@@ -34,7 +34,7 @@ apikey<-"YOUR_API_KEY"
 ```
 
 ## Accessing data
-With your created api key, you are ready to access all the funcionalities provided by musixmatchR package. 
+With your created api key, you are ready to access all the functionalities provided by musixmatchR package. 
 Let's give it a try.
 
 ### Getting data about Artists or Bands
@@ -66,7 +66,7 @@ head(track,1)
 |1 73446912 |Blank Space|83          |232         |       1        |             1|       118931|     1989 |2014-01-01T00:00:00Z
 ```
 
-### Getting data bands related to an artist
+### Getting data about bands related to an artist
 
 It gets a list of artists somehow related to a given one by its artist_id.
 
@@ -109,7 +109,7 @@ getLyrics(19649460,apikey)
 #Cool Examples
 
 A simple and cool example is creating a Word Cloud based on the most used words from a singer. 
-I created a Comparison Cloud based on words that are present on the early Taylor Swift fase (until *1989* album) and her new fase (*Reputation*).
+I created a Comparison Cloud based on words that are present on the early Taylor Swift phase (until *1989* album) and her new phase (*Reputation*).
 
 <center><img src="/images/taylorcloud.png" alt="Comparison Cloud New Taylor x Old Taylor" style="width: 600px;"/></center>
 
